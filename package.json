@@ -19,7 +19,8 @@
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server",
     "storybook": "start-storybook -p 9000",
-    "flow": "flow"
+    "flow": "flow",
+    "build-storybook": "build-storybook -c .storybook"
   },
   "dependencies": {
     "classnames": "^2.2.6",
